@@ -1,0 +1,3 @@
+@mixin ez-transition-all($timer: 0.3s) {
+    transition: all ease-in-out $timer !important;
+}
