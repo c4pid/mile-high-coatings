@@ -1,0 +1,72 @@
+.mh-section-owner {
+  background-image: url("/assets/images/owner-picture.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 794px;
+  padding-right: 53px;
+  padding-top: 145px;
+  padding-bottom: 150px;
+  position: relative;
+  margin-bottom: 100px;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 00) 85%,
+      rgb(255, 255, 255, 0.8)
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .mh-section-owner-info {
+    z-index: 99;
+    .owner-info-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: $mh-primary-orange-color;
+    }
+
+    .owner-info-name {
+      margin-top: 10px;
+      font-size: 64px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $mh-primary-dark-color;
+
+      &::after {
+        content: "";
+        width: 225px;
+        height: 3px;
+        display: block;
+        background: $mh-primary-dark-color;
+        margin-top: 34px;
+      }
+    }
+
+    .owner-info-story {
+      font-weight: 400;
+      font-size: 24px;
+      color: $mh-primary-dark-color;
+      z-index: 99;
+      letter-spacing: 0.04em;
+      line-height: 32px;
+
+      &::before {
+        content: "";
+        width: 203px;
+        height: 1px;
+        display: block;
+        background: $mh-primary-dark-color;
+        margin-top: 5px;
+        margin-bottom: 42px;
+      }
+    }
+  }
+}

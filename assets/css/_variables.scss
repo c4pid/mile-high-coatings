@@ -1,26 +1,41 @@
-$ez-font-family:'SF Pro Rounded',
-sans-serif;
-$ez-primary-color: #44D2B0;
-$ez-primary-light-color: #E2FAF4;
-$ez-primary-dark-color: #2FAB8D;
-$ez-primary-darken-color: #309C82;
-$ez-secondary-color: #B4AAF9;
+$ez-font-family: "SF Pro Rounded", sans-serif;
+$ez-primary-color: #44d2b0;
+$ez-primary-light-color: #e2faf4;
+$ez-primary-dark-color: #2fab8d;
+$ez-primary-darken-color: #309c82;
+$ez-secondary-color: #b4aaf9;
 $ez-white-color: #ffffff;
 $ez-active-color: #b3a9f9;
-$ez-gray-color:#EAE9EC;
-$ez-tag-color:#EEF5F4;
-$ez-shadow-color:#DADADF;
-$ez-text-color:#362658;
-$ez-blue-dark-color:#3a256c;
-$ez-blue-primary:#263658;
-$ez-text-gradient: linear-gradient(128.37deg, $ez-primary-color 20.53%, $ez-secondary-color 70.04%);
-$ez-text-gradient-2: linear-gradient(128.53deg, $ez-primary-color 20.53%, $ez-secondary-color 80.61%);
-$ez-outline-gradient: linear-gradient(108.15deg, $ez-primary-color 21.09%, $ez-secondary-color 111.77%);
+$ez-gray-color: #eae9ec;
+$ez-tag-color: #eef5f4;
+$ez-shadow-color: #dadadf;
+$ez-text-color: #362658;
+$ez-blue-dark-color: #3a256c;
+$ez-blue-primary: #263658;
+$ez-text-gradient: linear-gradient(
+  128.37deg,
+  $ez-primary-color 20.53%,
+  $ez-secondary-color 70.04%
+);
+$ez-text-gradient-2: linear-gradient(
+  128.53deg,
+  $ez-primary-color 20.53%,
+  $ez-secondary-color 80.61%
+);
+$ez-outline-gradient: linear-gradient(
+  108.15deg,
+  $ez-primary-color 21.09%,
+  $ez-secondary-color 111.77%
+);
 $ez-breakpoints-xs: 0;
 $ez-breakpoints-sm: 576px;
 $ez-breakpoints-md: 768px;
 $ez-breakpoints-lg: 992px;
 $ez-breakpoints-xl: 1200px;
 $ez-breakpoints-xxl: 1400px;
-$ez-tag-color-title:#263658;
-$ez-tag-color-text:#FFCC00;
+$ez-tag-color-title: #263658;
+$ez-tag-color-text: #ffcc00;
+
+$mh-primary-dark-color: #242424;
+$mh-primary-orange-color: #c44c29;
+$mh-primary-white-color: #fff;

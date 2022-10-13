@@ -1,0 +1,20 @@
+.mh-section-free {
+  margin: 134px 45px 0 49px;
+  .free-box {
+    padding-top: 18px;
+    background-color: $mh-primary-orange-color;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+
+    .free-box-title {
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: 0.13em;
+      color: $mh-primary-white-color;
+      margin-bottom: 14px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+}
