@@ -1,0 +1,226 @@
+#mhBanner {
+  .mh-banner {
+    margin-bottom: 130px;
+    position: relative;
+    .mh-banner-inner {
+      position: absolute;
+      top: 108px;
+      left: 169px;
+      h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 78px;
+        line-height: 121.66%;
+        letter-spacing: 0.01em;
+        color: #242424;
+        text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+        margin-bottom: 46px;
+      }
+    }
+    @media (max-width: 767px) {
+      .mh-banner-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        h1 {
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 30px;
+          letter-spacing: 0.01em;
+          color: #242424;
+          text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+#mhIntroduce {
+  padding: 0 62px 0px 50px;
+  .mh-introduce-content {
+    h1 {
+      margin-top: 10px;
+      margin-bottom: 24px;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 133.1%;
+      /* or 85px */
+      letter-spacing: 0.01em;
+      color: #242424;
+      text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    }
+    .mh-intro-des {
+      margin-top: 35px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      padding-right: 72px;
+      letter-spacing: 0.04em;
+      color: rgba(12, 26, 46, 0.7);
+    }
+    .mh-service-title,
+    .mh-price-title {
+      .text {
+        margin-left: 23px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.04em;
+        color: #242424;
+      }
+    }
+    .mh-text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.04em;
+      color: rgba(12, 26, 46, 0.7);
+      margin-top: 13px;
+      padding-left: 40px;
+      padding-right: 52px;
+      margin-bottom: 40px;
+    }
+    .mh-areas {
+      background: #c44c29;
+      border-radius: 10px;
+      padding: 26px 52px 35px 40px;
+      span {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      .mh-areas-line {
+        margin-top: 11px;
+        margin-bottom: 15px;
+        width: 541px;
+        height: 2px;
+        background: #ffffff;
+      }
+      p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        /* or 133% */
+        letter-spacing: 0.04em;
+        color: #ffffff;
+      }
+    }
+  }
+}
+#mhOurService {
+  background: url(/assets/images/bg-our-service.png) no-repeat center;
+  background-size: 100%;
+  .mh-service-title {
+    text-align: center;
+    h1 {
+      margin-top: 10px;
+      margin-bottom: 24px;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 133.1%;
+      /* or 85px */
+      letter-spacing: 0.01em;
+      color: #242424;
+      text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    }
+  }
+  .mh-service-content {
+    .card {
+      margin-top: 90px;
+      border-bottom: 10px solid #c44c29;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      .mh-card-text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.13em;
+        color: #242424;
+        text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+        padding: 40px 0;
+      }
+    }
+  }
+}
+#mhAbout {
+  padding: 80px 70px 0px 50px;
+  .mh-about-title {
+    margin-bottom: 61px;
+    h1 {
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 133.1%;
+      margin-bottom: 42px;
+      letter-spacing: 0.01em;
+      color: #242424;
+      text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    }
+  }
+  .mh-about-word {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    color: #242424;
+    margin-left: 20px;
+  }
+  .mh-about-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    margin-left: 65px;
+    letter-spacing: 0.04em;
+    color: rgba(12, 26, 46, 0.7);
+  }
+  .mh-about-box {
+    background: #c44c29;
+  }
+  .mh-about-string {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  .mh-card-about{
+    .mh-about-box{
+      padding-left: 20px;
+      position: relative;
+       &::before{
+        position: absolute;
+        content: url(/assets//images/svg/icon.svg);
+        right: 278px;
+        bottom: 200px;
+       }
+    }
+    .mh-about-string-sq {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 134.5%;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 31px;
+      margin-top: 40px;
+      letter-spacing: 0.13em;
+      text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    }
+    .mh-about-free {
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 32px;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+      text-align: center;
+      &::before {
+        content: '';
+        position: absolute;
+        background: #ffffff;
+        transform: rotate(2.35deg);
+      }
+    }
+  }
+}

@@ -1,63 +1,18 @@
-.ez-btn {
-    border: 0;
-    box-shadow: 0px 4px 0px $ez-primary-dark-color;
-    border-radius: 20px;
-    padding: 17px 30px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-    background-color: transparent;
-    color: $ez-white-color !important;
-    @include ez-transition-all;
-    display: inline-flex;
-    align-items: center;
-    height: 56px;
-    text-decoration: none;
-    white-space: nowrap;
-    position: relative;
-    &.ez-btn-primary {
-        background: $ez-primary-color;
-        &:hover {
-            background: rgba($ez-primary-color, 0.8);
-            box-shadow: 0px 8px 0px $ez-primary-dark-color;
-            transform: translateY(-4px);
-        }
-        &:active {
-            background: $ez-primary-darken-color;
-            box-shadow: 0px 1px 0px $ez-primary-dark-color;
-            transform: translateY(3px);
-        }
-    }
-    &.ez-btn-outline {
-        color: $ez-primary-color !important;
-        background-color: $ez-white-color;
-        box-shadow: 0px 4px 0px $ez-primary-color;
-        background: linear-gradient(108.15deg, $ez-primary-color 21.09%, $ez-secondary-color 111.77%);
-        padding: 3px;
-        .ez-btn-inner {
-            padding: 11px 24px;
-            background-color: #fff;
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 100%;
-            @include ez-transition-all;
-        }
-        svg {
-            margin-left: 6px;
-        }
-        &:hover {
-            box-shadow: 0px 8px 0px $ez-primary-color;
-            transform: translateY(-4px);
-        }
-        &:active {
-            .ez-btn-inner {
-                background: $ez-primary-light-color;
-            }
-            box-shadow: 0px 1px 0px $ez-primary-color;
-            transform: translateY(3px);
-        }
-    }
+.mh-btn-banner{
+padding:26px 49px ;
+background: $mh-background-btn;
+border-radius: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+border: none;
+margin-top: 47px;
+@media (max-width:767px) {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
 }

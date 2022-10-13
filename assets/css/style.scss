@@ -1,6 +1,11 @@
 @import "variables";
 @import "mixins";
 @import "components";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: $ez-font-family;
     font-weight: 600;
@@ -45,6 +50,9 @@ body {
 .ez-loader-wrapper img {
     height: 100px;
     animation: jump 1s linear alternate infinite;
+}
+.mh-card-bottom{
+    margin-bottom: 90px;
 }
 
 @keyframes jump {
