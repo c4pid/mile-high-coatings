@@ -17,20 +17,7 @@ body {
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-    width: 11px;
-    height: 11px;
-}
 
-::-webkit-scrollbar-track {
-    background: rgba($color: $ez-blue-dark-color, $alpha: 0.05);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(180.61deg, $ez-primary-color 19.57%, $ez-secondary-color 122.17%);
-    border-radius: 10px;
-}
 
 .ez-loader-wrapper {
     position: fixed;
@@ -51,9 +38,7 @@ body {
     height: 100px;
     animation: jump 1s linear alternate infinite;
 }
-.mh-card-bottom{
-    margin-bottom: 90px;
-}
+
 
 @keyframes jump {
     0% {
