@@ -472,7 +472,15 @@ footer .ez-footer .ez-footer-subscribe .ez-footer-subscribe-form .ez-btn:active 
   color: rgba(12, 26, 46, 0.7);
 }
 #mhAbout .mh-about-box {
-  background: #c44c29;
+  padding-left: 20px;
+  padding-top: 10px;
+  position: relative;
+}
+#mhAbout .mh-about-box::before {
+  position: absolute;
+  content: url(/assets//images/svg/icon.svg);
+  right: 278px;
+  top: -25px;
 }
 #mhAbout .mh-about-string {
   font-weight: 700;
@@ -480,41 +488,6 @@ footer .ez-footer .ez-footer-subscribe .ez-footer-subscribe-form .ez-btn:active 
   line-height: 32px;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-#mhAbout .mh-card-about .mh-about-box {
-  padding-left: 20px;
-  position: relative;
-}
-#mhAbout .mh-card-about .mh-about-box::before {
-  position: absolute;
-  content: url(/assets//images/svg/icon.svg);
-  right: 278px;
-  bottom: 200px;
-}
-#mhAbout .mh-card-about .mh-about-string-sq {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 134.5%;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 31px;
-  margin-top: 40px;
-  letter-spacing: 0.13em;
-  text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
-}
-#mhAbout .mh-card-about .mh-about-free {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 32px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  text-align: center;
-}
-#mhAbout .mh-card-about .mh-about-free::before {
-  content: "";
-  position: absolute;
-  background: #ffffff;
-  transform: rotate(2.35deg);
 }
 
 .mh-line-up {
